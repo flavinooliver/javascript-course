@@ -10,6 +10,7 @@ A version manager for repsitories and files.
 - commit - is the version file message to be displayed into GIT timeline
 - staged files - storaged files to be commited
 - unstaged files - files witch need to be staged to commit
+- untracked files - Files witch git not known.
 
 ## commands
 __to use git commands it needs to use git prefix write the command__
@@ -20,3 +21,6 @@ __to use git commands it needs to use git prefix write the command__
     - `add .` - Add all files and folders from current terminal path.
 - `commit` - Insert a message to all staged files.
     - `commit -m "TEXT HERE"` - Insert a simple message into commit.
+-`status` - return the status from all files.
+- `restore` - Restore file to latest older version.
+    - `restore --staged` - Restore file to unstaged version
