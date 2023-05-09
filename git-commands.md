@@ -24,3 +24,4 @@ __to use git commands it needs to use git prefix write the command__
 -`status` - return the status from all files.
 - `restore` - Restore file to latest older version.
     - `restore --staged` - Restore file to unstaged version
+- `log` - Return all commits order by recent date.
