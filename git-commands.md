@@ -11,6 +11,8 @@ A version manager for repsitories and files.
 - staged files - storaged files to be commited
 - unstaged files - files witch need to be staged to commit
 - untracked files - Files witch git not known.
+- remote - A reference to a GIT repository. wich usually defilt to being o'origin" name.
+- branch - Is like a separated version of your code that you can work on independently  at the same time.
 
 ## commands
 __to use git commands it needs to use git prefix write the command__
@@ -25,3 +27,10 @@ __to use git commands it needs to use git prefix write the command__
 - `restore` - Restore file to latest older version.
     - `restore --staged` - Restore file to unstaged version
 - `log` - Return all commits order by recent date.
+
+- `push` = put all commited files into cloud.
+- `remote` - return all storaged remotes.
+    - `remote add [remote-name] [git -repository-url]` - Add a git repository reference by name.
+    - `remote remove [remote-name]` - removes all storaged remotes.
+    - `remote get-url [remote-name]` - Get the selected remote URL
+     - `remote set-url [remote-name] [git-repository-url]` - Set the selected remote URL
