@@ -36,3 +36,8 @@ __to use git commands it needs to use git prefix write the command__
      - `remote set-url [remote-name] [git-repository-url]` - Set the selected remote URL
 - `branch` - Return all storaged branchs.
     - `branch -M [other-branch-name]` - Rename current branch to other.
+- `checkout`Is like git restore, returns the files to be checkout.
+    - `checkout [file-name]` - restore the file to the lastest older version.
+    - `checkout [path]` - restore all files from path to the latest older version
+    -`checkout [branch-name]` - switch the branch to other.
+    - `checkout -b [branch-name]` - Create a new branch from current one.
