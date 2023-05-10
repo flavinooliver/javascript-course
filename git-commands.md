@@ -34,3 +34,5 @@ __to use git commands it needs to use git prefix write the command__
     - `remote remove [remote-name]` - removes all storaged remotes.
     - `remote get-url [remote-name]` - Get the selected remote URL
      - `remote set-url [remote-name] [git-repository-url]` - Set the selected remote URL
+- `branch` - Return all storaged branchs.
+    - `branch -M [other-branch-name]` - Rename current branch to other.
