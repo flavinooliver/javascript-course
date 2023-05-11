@@ -13,6 +13,7 @@ A version manager for repsitories and files.
 - untracked files - Files witch git not known.
 - remote - A reference to a GIT repository. wich usually defilt to being o'origin" name.
 - branch - Is like a separated version of your code that you can work on independently  at the same time.
+- merge - means make two pieces of code and transform into one.
 
 ## commands
 __to use git commands it needs to use git prefix write the command__
@@ -41,3 +42,4 @@ __to use git commands it needs to use git prefix write the command__
     - `checkout [path]` - restore all files from path to the latest older version
     -`checkout [branch-name]` - switch the branch to other.
     - `checkout -b [branch-name]` - Create a new branch from current one.
+- `pull [remote-name] [branch-name]` - update the current branch  getting all content from target-branch and merge into current branch.
