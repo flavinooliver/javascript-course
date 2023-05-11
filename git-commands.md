@@ -29,7 +29,7 @@ __to use git commands it needs to use git prefix write the command__
     - `restore --staged` - Restore file to unstaged version
 - `log` - Return all commits order by recent date.
 
-- `push` = put all commited files into cloud.
+- `push [remote-name] [branch-name]` = put all commited files into cloud.
 - `remote` - return all storaged remotes.
     - `remote add [remote-name] [git -repository-url]` - Add a git repository reference by name.
     - `remote remove [remote-name]` - removes all storaged remotes.
