@@ -43,3 +43,6 @@ __to use git commands it needs to use git prefix write the command__
     -`checkout [branch-name]` - switch the branch to other.
     - `checkout -b [branch-name]` - Create a new branch from current one.
 - `pull [remote-name] [branch-name]` - update the current branch  getting all content from target-branch and merge into current branch.
+- `stash`- Store the staged files into memory
+    - `stash apply` - apply all changes from last stashed changes into current branch.
+- `clone [git-repository-url]` - clone the git repository into your machine in current terminal path.
